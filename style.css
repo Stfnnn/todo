@@ -1,0 +1,74 @@
+h3 {
+    text-align: center;
+    text-shadow: 1px 2px blue;
+}
+
+#jumb {
+    height: auto;
+    background-color: aquamarine;
+    color: black;
+}
+
+#addButton {
+    margin-top: 2px;
+    width: 150px;
+    height: 35px;
+    line-height: 15px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: white;
+    font-style: italic;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin-top: 3px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    text-shadow: 1px 1px blue;
+    padding: 2px;
+}
+
+ul li input[type='checkbox']:checked {
+    text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+    float: right;
+    width: 40px;
+    margin: 2px;
+    height: 30px;
+    background-color: azure;
+    border: 2px solid black;
+}
+
+
+#remove {
+    width: 30px;
+    height: 33px;
+    float: right;
+    background-color: #6f91f0;
+    border: 2px solid black;
+    border-radius: 15%;
+    color: khaki;
+    font-size: 23px;
+    line-height: 26px;
+    font-family: sans-serif;
+}
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 1px 1px blue;
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+<html lang="en">
+    <main>
+        <head>
+            <meta charset="utf-8">
+            <meta name="author" content="S.D">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+
+        <body>
+            <div class="jumbotron" id="jumb">
+
+                <div class="container">
+                    <h3>Lets make a plans for Today!</h3>
+                    <input class="form-control" type="text" placeholder="Type here things which u need to do today!!" id="inputs" onfocus="this.value=''">
+                    <button onclick="addToList();" type="button" name="button" id="addButton"><strong>Add</strong></button><br>
+                </div>
+                <div class="d-flex flex-column">
+                    <ul id="list" class="list-group">
+                        <label for="checkbox"></label>
+                    </ul>
+                </div>
+                <footer class="footer"> &copy; Copyright S.D 2019</footer>
+            </div>
+            <script src="main.js"></script>
+        </body>
+    </main>
+</html>
